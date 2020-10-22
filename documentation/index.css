@@ -1,0 +1,150 @@
+html {
+    min-width: 800px;
+    overflow-x: hidden;
+}
+
+header{
+    height: 80px;
+    background-color: white;
+}
+
+.heading li {
+    color: black;
+    font-family: Avenir;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+}
+
+.menu {
+    margin-right: 1%;
+}
+
+.menu li {
+    margin: 20px;
+    font-family: Avenir;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    float: right;
+}
+
+.menu li div {
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    font-size: large;
+}
+
+.pageButton {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border-bottom: 3px solid white;
+    
+}
+
+.pageButton:hover {
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 3px solid #26594d;
+}
+
+.loginButton {
+    font-weight: bold;
+    color: #26594d;
+    background-color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 3px solid white;
+}
+
+.loginButton:hover {
+    border-bottom: 3px solid #26594d;
+    cursor: pointer;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+#mainPicture {
+    margin: auto;
+    width: 95%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#freightPic {
+    width: 100%;
+    max-height: 1000px;
+    align-self: start;
+    z-index: 1;
+    position: relative;
+}
+
+#mainCaption {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    z-index: 2;
+    color:white;
+    font-family: Avenir;
+    font-size: 32px;
+}
+
+#threeFeatures {
+    margin: auto;
+    margin-top: -25px;
+    padding: 10px;
+    width: 94%;
+    background-image: linear-gradient(whitesmoke, white);
+    height: auto;
+}
+
+#threeFeatures ul {
+    width: 100%;
+    margin: auto;
+    margin-left: 5.5%;
+    margin-top: 5%;
+}
+
+#threeFeatures ul li {
+    width: 25%;
+    max-height: 200px;
+    min-height: 200px;
+    text-align: center;
+    padding: 0;
+    margin-right: 3.75%;
+    font-family: Avenir;
+    display: inline-block;
+    list-style: none;
+}
+
+hr {
+    width: 95%;
+    height: 1px;
+    background-color: black;
+}
+
+#footer {
+    width: 100%;
+    max-height: 10px;
+}
+
+.footing {
+    color: black;
+    font-family: Avenir;
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+}
