@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.743b9f30.css",
+    "main.js": "/static/js/main.9ef7912c.js",
+    "static/media/satellite.jpeg": "/static/media/satellite.bafa04a6a2d1256ec1f6.jpeg",
+    "static/media/missionImage.jpg": "/static/media/missionImage.578002862c51dce31855.jpg",
+    "static/media/TitilliumWeb-Regular.ttf": "/static/media/TitilliumWeb-Regular.acaed4007b9c5825af87.ttf",
+    "index.html": "/index.html",
+    "main.743b9f30.css.map": "/static/css/main.743b9f30.css.map",
+    "main.9ef7912c.js.map": "/static/js/main.9ef7912c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743b9f30.css",
+    "static/js/main.9ef7912c.js"
+  ]
+}
